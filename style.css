@@ -7,7 +7,41 @@
 body{
     background-color: #101010;
 }
+a{
+    text-decoration: none;
+}
 .paycelint_container{
+    padding: 10px;
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1320px;
+}
+.paycelint_header__row{
+    padding-top: 60px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.paycelint_header__menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+.paycelint_header__menu__link{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    color: #fff;
+}
+
+.paycelint_logo{
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #fff;
 }

@@ -1,7 +1,13 @@
 @media(max-width: 1280px){
     .paycelint__banner__title{
         padding-top: 300px;
-
+    }
+    .paycelint__banner__btn{
+        padding-bottom: 130px;
+    }
+    .paycelint__learn{
+        background-position: 50% 5%;
+        background-size: 100%;
     }
 }
 @media(max-width: 1200px){
@@ -11,39 +17,81 @@
     }
     .paycelint__banner__btn{
         padding-top: 20px;
-        padding-bottom: 255px;
+
     }
     .btn_width{
         width: 60px;
         height: 60px;
     }
 }
-@media(max-width: 1000px){
+@media(max-width: 1024px){
+    .paycelint_container{
+        max-width: 1000px;
+    }
     .paycelint__banner__title{
         padding-top: 210px;
+    }
+    .paycelint__learn{
+        background-position: 50% 5%;
+        background-size: 100%;
+    }
+    .learn__title_down{
+        position: relative;
+        left: 0;
+    }
+    .paycelint__learn__title{
+        text-align: center;
+        font-size: 60px;
     }
 }
 @media(max-width: 900px){
     .paycelint__banner__title{
         padding-top: 210px;
     }
+    .paycelint__learn{
+        background-position: 50% 5%;
+        background-size: 100%;
+    }
+    .paycelint__learn__title{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .paycelint__banner__btn{
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    
 }
 @media(max-width: 800px){
     .paycelint__banner__title{
         padding-top: 120px;
-        font-size: 16vw;
+        font-size: 14vw;
+    }
+    .paycelint__learn{
+        background-position: 50% 7%;
+        background-size: 100%;
     }
     .paycelint_header__menu{
         display: none;
     }
     .paycelint_header__row{
-
         justify-content: center;
+    }
+    .paycelint__banner__btn{
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+    .paycelint__learn__title{
+        font-size: 48px;
     }
 }
 @media(max-width: 670px){
     .paycelint__banner__title{
         padding-top: 140px;
+    }
+    .paycelint__learn{
+        background-position: 50% 9%;
+        background-size: 100%;
     }
     .btn_width{
         width: 50px;
@@ -51,14 +99,13 @@
     }
     .paycelint__banner__btn{
         padding-top: 10px;
-        padding-bottom: 255px;
+        padding-bottom: 80px;
+    }
+    .paycelint__learn__block__text{
+        font-size: 20px;
     }
 }
-@media(max-width: 670px){
-    .paycelint__banner__title{
-        padding-top: 110px;
-    }
-}
+
 @media(max-width: 580px){
     .paycelint__banner__title{
         padding-top: 110px;
@@ -71,10 +118,38 @@
         width: 40px;
         height: 40px;
     }
+    .paycelint__learn{
+        background-position: 50% 9%;
+        background-size: 100%;
+    }
+    .paycelint__learn__block__text{
+        font-size: 18px;
+    }
+   
+}
+@media(max-width: 460px){
+    .paycelint__banner__title{
+        padding-top: 35px;
+    }
+    .paycelint__learn{
+        background-position: 50% 10%;}
+        .paycelint__learn__block__text{
+            font-size: 16px;
+        }
+        .paycelint__learn__title{
+            font-size: 36px;
+        }
+        .paycelint__learn__blocks{
+            padding-top: 50px;
+        }
+        .paycelint__learn{
+            background-position: 50% 7%;
+            background-size: 100%;
+        }
 }
 @media(max-width: 400px){
     .paycelint__banner__title{
-        padding-top: 65px;
+        padding-top: 35px;
     }
     .paycelint_banner_back{
         background-position: 50% -2%;}

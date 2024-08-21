@@ -16,6 +16,7 @@ a{
     max-width: 1320px;
 }
 .paycelint_header__row{
+    background-color: transparent;
     padding-top: 60px;
     gap: 40px;
     display: flex;
@@ -44,4 +45,33 @@ a{
     text-transform: uppercase;
     text-align: justify;
     color: #fff;
+}
+
+.paycelint_banner_back{
+    background-image: url(./image/banner.png);
+    background-size: 100%;
+    background-position: 50% 10%;
+    mix-blend-mode: exclusion;
+}
+.paycelint__banner{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.paycelint__banner__title{
+    padding-top: 360px;
+    font-weight: 400;
+    font-size: 150px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #fff;
+    text-align: center;
+}
+.paycelint__banner__btn{
+    padding-top: 45px;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 255px;
 }

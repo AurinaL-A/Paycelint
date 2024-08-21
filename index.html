@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./swiper.css" />
 </head>
 
 <body>
@@ -34,22 +35,114 @@
             <div class="paycelint_container">
                 <div class="paycelint__banner">
                     <h1 class="paycelint__banner__title">TRADING</h1>
-                    <button class="paycelint__banner__btn"><img src="./image/btn__bottom.svg" alt="btn" class="btn_width"></button>
+                    <button class="paycelint__banner__btn"><img src="./image/btn__bottom.svg" alt="btn"
+                            class="btn_width"></button>
                 </div>
             </div>
         </div>
         <div class="paycelint_container">
             <div class="paycelint__learn">
-                <h2 class="paycelint__learn__title">Чему вы  <br><span class="learn__title_down">научитесь?</span></h2>
+                <h2 class="paycelint__learn__title">Чему вы <br><span class="learn__title_down">научитесь?</span></h2>
                 <div class="paycelint__learn__blocks">
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Разработка собственной стратегии торговли</p></div>
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Фильтрация новостных источников для выделения важной информации</p></div>
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Расчет и контроль рисков с учетом психологических аспектов</p></div>
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Анализ стратегий других трейдеров</p></div>
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Работа с торговыми терминалами</p></div>
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Соблюдение баланса собственных и заимствованных средств</p></div>
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Оценка торговых инструментов с использованием фундаментального и технического анализа</p></div>
-                    <div class="paycelint__learn__block"><p class="paycelint__learn__block__text">Составление торгового плана трейдера</p></div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Разработка собственной стратегии торговли</p>
+                    </div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Фильтрация новостных источников для выделения важной
+                            информации</p>
+                    </div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Расчет и контроль рисков с учетом психологических
+                            аспектов</p>
+                    </div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Анализ стратегий других трейдеров</p>
+                    </div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Работа с торговыми терминалами</p>
+                    </div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Соблюдение баланса собственных и заимствованных средств
+                        </p>
+                    </div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Оценка торговых инструментов с использованием
+                            фундаментального и технического анализа</p>
+                    </div>
+                    <div class="paycelint__learn__block">
+                        <p class="paycelint__learn__block__text">Составление торгового плана трейдера</p>
+                    </div>
+                </div>
+            </div>
+            <div class="paycelint__advantages">
+                <h2 class="paycelint__advantages__title">Преимущества трейдинга</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="paycelint__advantages__block">
+                                <p class="paycelint__advantages__text">Возможность зарабатывать большие деньги без ограничений, находясь на бирже</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="paycelint__advantages__block">
+                                <p class="paycelint__advantages__text">Безграничные возможности работы из любой точки мира</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="paycelint__advantages__block">
+                                <p class="paycelint__advantages__text">Гибкий график работы, позволяющий выбирать оптимальное время для торговли</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="paycelint__advantages__block">
+                                <p class="paycelint__advantages__text">Полная свобода действий и решений, без внешних ограничений</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="paycelint__advantages__block">
+                                <p class="paycelint__advantages__text">Минимальные затраты для старта, поскольку не требуется аренда офиса или найм персонала</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('.swiper', {
+                        slidesPerView: 3,
+                        direction: getDirection(),
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        on: {
+                            resize: function () {
+                                swiper.changeDirection(getDirection());
+                            },
+                        },
+                    });
+
+                    function getDirection() {
+                        var windowWidth = window.innerWidth;
+                        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+                        return direction;
+                    }
+                </script>
+            </div>
+            <div class="paycelint__community">
+                <h2 class="paycelint__community__title"> <span class="community__title_purple">Активное</span> трейдерское <span><img class="community__spiral" src="./image/spiral.png" alt="spiral"></span><br><span class="community__title_down">сообщество</span></h2>
+                <div class="paycelint__community__informations">
+                    <div class="paycelint__community__info">
+                        <p class="paycelint__community__info__text">Возможность вступить в активное трейдерское сообщество. </p>
+                    </div>
+                    <div class="paycelint__community__info">
+                        <p class="paycelint__community__info__text">Анализ собственных трейдерских операций и обратная связь для улучшения навыков.  </p>
+                    </div>
                 </div>
             </div>
         </div>

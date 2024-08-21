@@ -61,7 +61,7 @@ a{
     justify-content: center;
 }
 .paycelint__banner__title{
-    padding-top: 360px;
+    padding-top: 320px;
     font-weight: 400;
     font-size: 10vw;
     letter-spacing: 0.03em;
@@ -71,8 +71,48 @@ a{
     text-align: center;
 }
 .paycelint__banner__btn{
-    padding-top: 45px;
+    padding-top: 35px;
     background-color: transparent;
     border: none;
-    padding-bottom: 255px;
+    padding-bottom: 300px;
+}
+.paycelint__learn{
+    background-image: url(./image/mountains_back.svg);
+    background-repeat: no-repeat;
+    mix-blend-mode: screen;
+    background-position: 50% 0%;
+    background-size: 100%;
+}
+.paycelint__learn__title{
+    padding-top: 70px;
+    font-weight: 600;
+    font-size: 72px;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    color: #fff;
+}
+.learn__title_down{
+    position: relative;
+    left: 213px;
+}
+.paycelint__learn__block__text{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+}
+.paycelint__learn__blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 77px;
+}
+.paycelint__learn__block{
+    background-color: #101010;
+    border: 1px solid #7f52f0;
+    border-radius: 20px;
+    padding: 43px 36px;
+    max-width: 100%;
+
 }

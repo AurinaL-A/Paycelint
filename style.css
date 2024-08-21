@@ -52,6 +52,7 @@ a{
     background-size: 100%;
     background-position: 50% 10%;
     mix-blend-mode: exclusion;
+    background-repeat: no-repeat;
 }
 .paycelint__banner{
     display: flex;
@@ -62,7 +63,7 @@ a{
 .paycelint__banner__title{
     padding-top: 360px;
     font-weight: 400;
-    font-size: 150px;
+    font-size: 10vw;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: justify;

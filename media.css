@@ -72,3 +72,12 @@
         height: 40px;
     }
 }
+@media(max-width: 400px){
+    .paycelint__banner__title{
+        padding-top: 50px;
+    }
+    .paycelint_banner_back{
+
+        background-size: 100%;
+        background-position: 50% -2%;}
+}

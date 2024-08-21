@@ -32,6 +32,13 @@
     .paycelint__banner__title{
         padding-top: 180px;
     }
+    .paycelint_header__menu{
+        display: none;
+    }
+    .paycelint_header__row{
+
+        justify-content: center;
+    }
 }
 @media(max-width: 670px){
     .paycelint__banner__title{
@@ -44,5 +51,23 @@
     .paycelint__banner__btn{
         padding-top: 10px;
         padding-bottom: 255px;
+    }
+}
+@media(max-width: 670px){
+    .paycelint__banner__title{
+        padding-top: 110px;
+    }
+}
+@media(max-width: 580px){
+    .paycelint__banner__title{
+        padding-top: 110px;
+    }
+    .paycelint_header__row{
+        background-color: transparent;
+        padding-top: 20px;
+    }
+    .btn_width{
+        width: 40px;
+        height: 40px;
     }
 }

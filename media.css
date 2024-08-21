@@ -1,0 +1,48 @@
+@media(max-width: 1280px){
+    .paycelint__banner__title{
+        padding-top: 300px;
+
+    }
+}
+@media(max-width: 1200px){
+    .paycelint__banner__title{
+        padding-top: 250px;
+
+    }
+    .paycelint__banner__btn{
+        padding-top: 20px;
+        padding-bottom: 255px;
+    }
+    .btn_width{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media(max-width: 1000px){
+    .paycelint__banner__title{
+        padding-top: 210px;
+    }
+}
+@media(max-width: 900px){
+    .paycelint__banner__title{
+        padding-top: 210px;
+    }
+}
+@media(max-width: 800px){
+    .paycelint__banner__title{
+        padding-top: 180px;
+    }
+}
+@media(max-width: 670px){
+    .paycelint__banner__title{
+        padding-top: 140px;
+    }
+    .btn_width{
+        width: 50px;
+        height: 50px;
+    }
+    .paycelint__banner__btn{
+        padding-top: 10px;
+        padding-bottom: 255px;
+    }
+}
